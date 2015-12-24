@@ -39,11 +39,11 @@
 .count-leave {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  left: 0;
-  bottom: 0;
+  left: 0 !important;
+  bottom: 0 !important;
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  position: absolute;
+  position: absolute !important;
 }
 .count-leave.count-leave-active {
   -webkit-transform: translateY(-100%);
